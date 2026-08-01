@@ -1,8 +1,24 @@
 aid: sila
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sila.png
 name: Sila
-description: 'Sila is a company surfaced as a portfolio company of matrix-partners, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sila Nanotechnologies (silanano.com) is a battery materials company that develops and
+  manufactures Titan Silicon, a next-generation silicon anode that replaces graphite in lithium-ion
+  batteries to increase energy density and enable fast charging. Sila operates silicon anode
+  manufacturing facilities and also offers battery engineering services, targeting electric vehicles,
+  consumer electronics, aerospace, data centers, robotics, and defense. The enrichment pass found no
+  developer API, API documentation, or developer portal: Sila is a B2B advanced-materials hardware
+  company with no public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sila/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier
+- Battery
+- Materials
+- Energy
+- Silicon Anode
+- Manufacturing
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,9 @@ maintainers:
 common:
 - type: Website
   url: https://silanano.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: No public API surface — battery materials hardware company; no developer portal, docs, or API.
