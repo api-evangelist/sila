@@ -31,6 +31,9 @@ description: 'Sila Nanotechnologies (silanano.com) is a battery materials compan
   developer API, API documentation, or developer portal: Sila is a B2B advanced-materials hardware
   company with no public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sila/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The enrichment pass found no developer API, API documentation, or developer portal: Sila is a B2B advanced-materials hardware company with no public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
